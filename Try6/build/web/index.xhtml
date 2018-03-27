@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+       <h:form>
+            Id:<br></br>
+            <h:inputText value="#{bean.id}"/><br></br>
+            Name:<br></br>
+            <h:inputText value="#{bean.name}"/><br></br>
+            Roll.no:<br></br>
+            <h:inputText value="#{bean.rollno}"/><br></br>
+            Class:<br></br>
+            <h:inputText value="#{bean.classn}"/><br></br>
+            Date of Birth:<br></br>
+            <h:inputText value="#{bean.dob}"/><br></br>
+            Blood Group:<br></br>
+            <h:inputText value="#{bean.bg}"/><br></br>
+            Address:    <br></br>     
+            <h:inputText value="#{bean.address}"/><br></br><br></br>
+            
+            
+            <h:commandButton value="Save" action="#{bean.save()}" />
+            
+        </h:form>
+    </h:body>
+</html>
+
